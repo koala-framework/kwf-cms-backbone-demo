@@ -1,6 +1,6 @@
 <?php
 chdir(dirname(__FILE__));
-require_once 'vkwf-lib/Vkwf/Setup.php';
+require 'vendor/vivid-planet/vkwf/Vkwf/Setup.php';
 Vkwf_Setup::setUp();
 Vkwf_Setup::dispatchKwc();
 Vkwf_Setup::dispatchMedia();

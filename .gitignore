@@ -13,5 +13,8 @@ config.local.ini
 include_path
 update
 library
-benchmarklog
 .idea
+/build
+/vendor
+bower.json
+.bowerrc
