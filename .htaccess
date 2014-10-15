@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^/*(bootstrap.php)/?
+RewriteRule ^(.*)$ bootstrap.php [L]
+
+php_flag magic_quotes_gpc off
+php_flag apc.cache_by_default on

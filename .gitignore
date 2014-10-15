@@ -1,0 +1,17 @@
+querylog
+eventlog
+benchmarklog
+benchmark.rrd
+*.kdev4
+.project
+.buildpath
+.settings
+kwf-lib
+vkwf-lib
+.tmp*
+config.local.ini
+include_path
+update
+library
+benchmarklog
+.idea
