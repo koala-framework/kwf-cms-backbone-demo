@@ -16,5 +16,5 @@ library
 .idea
 /build
 /vendor
-bower.json
+/bower.json
 .bowerrc

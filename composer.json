@@ -3,6 +3,11 @@
         "koala-framework/koala-framework": "dev-master",
         "vivid-planet/vkwf": "dev-master"
     },
+    "extra": {
+        "require-bower": {
+            "backbone": "1.1.2"
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [

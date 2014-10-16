@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4b550687a90a1dbeefb9dd6f19653f9b",
+    "hash": "a44649e9ae33e39bf0c10a3b2dec6eeb",
     "packages": [
         {
             "name": "koala-framework/composer-extra-assets",
@@ -75,7 +75,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git.vivid-planet.com/git/kwf",
-                "reference": "4f70a87a4c6746ba8a5801ca7f583b5ffe0eefb0"
+                "reference": "ae37e12f385e576009a26b7917466e653845c135"
             },
             "require": {
                 "koala-framework/composer-extra-assets": "dev-master",
@@ -128,7 +128,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-10-15 08:12:11"
+            "time": "2014-10-16 08:48:34"
         },
         {
             "name": "koala-framework/kwf-modernizr",
