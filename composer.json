@@ -1,7 +1,6 @@
 {
     "require": {
-        "koala-framework/koala-framework": "dev-master",
-        "vivid-planet/vkwf": "dev-master"
+        "koala-framework/koala-framework": "3.8.x-dev"
     },
     "extra": {
         "require-bower": {
@@ -9,11 +8,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://packages.vivid-planet.com/"
-        }
-    ]
+    "prefer-stable": true
 }

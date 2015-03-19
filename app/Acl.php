@@ -1,5 +1,5 @@
 <?php
-class Acl extends Vkwf_Acl_Component_IsiWeb
+class Acl extends Kwf_Acl_Component
 {
     public function __construct()
     {
