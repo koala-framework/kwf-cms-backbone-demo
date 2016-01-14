@@ -1,10 +1,12 @@
 {
     "require": {
-        "koala-framework/koala-framework": "3.8.x-dev"
+        "koala-framework/koala-framework": "4.0.x-dev"
     },
     "extra": {
         "require-bower": {
-            "backbone": "1.1.2"
+            "backbone": "1.1.2",
+            "susy": "vivid-planet/susy#18ad7cba4101e85bf4ed0ecfa45e6c2d59489a76",
+            "jquery": "1.11.3"
         }
     },
     "minimum-stability": "dev",

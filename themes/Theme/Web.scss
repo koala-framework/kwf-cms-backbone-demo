@@ -1,14 +1,40 @@
+@import "form/default-styles";
+@import "config/colors";
 html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
     -webkit-text-size-adjust:none;
 }
-.webStandard {
+.kwfUp-webStandard {
     /** Global design for web **/
 }
 
-.webMenu {
+.kwfUp-webMenu {
     /** Global menu design for web **/
 }
 
-.webForm {
+.kwfUp-webForm {
     /** Global form design for web **/
+}
+.kwfUp-webStandard { font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: $typo; }
+.kwfUp-webStandard strong { font-weight: bold; }
+.kwfUp-webStandard em { font-style: italic; }
+
+.kwfUp-webStandard p { line-height: 20px; color: $typo; margin-bottom: 10px; }
+
+.kwfUp-webStandard h1 { font-size: 26px; margin-bottom: 5px; text-transform: uppercase; color: #333333; font-weight: normal; } /* Überschrift 1 */
+.kwfUp-webStandard h2.headlineH2 { margin-top: 0px; font-size: 20px; }
+.kwfUp-webStandard h2 { font-size: 22px; margin-top: 15px; margin-bottom: 5px; color: #333333; font-weight: normal; } /* Überschrift 2 */
+.kwfUp-webStandard h3 { font-size: 18px; margin-top: 15px; margin-bottom: 5px; font-weight: normal; } /* Überschrift 3 */
+.kwfUp-webStandard h4 { font-size: 16px; margin-top: 15px; margin-bottom: 5px; font-weight: normal; color: $mainColor; } /* Überschrift 4 */
+.kwfUp-webStandard h5 { font-size: 14px; margin-top: 15px; margin-bottom: 5px; font-weight: normal; color: $mainColor; } /* Überschrift 5 */
+
+.kwfUp-webStandard a { text-decoration: none; color: $mainColor; outline: none; }
+.kwfUp-webStandard a:hover { text-decoration: none; color: $secColor; }
+
+.kwfUp-webStandard ol { margin-bottom: 0px; margin-left: 0px; line-height: 18px; }
+.kwfUp-webStandard ul { margin-bottom: 0px; line-height: 18px; }
+.kwfUp-webStandard li { margin-bottom: 5px; color: $typo; list-style-type: square; list-style-color: $mainColor; }
+.kwfUp-webStandard ol li { list-style-type: decimal; }
+.kwfUp-webStandard ul li { list-style-type: square; }
+.kwfUp-webForm {
+    @include form-default-styles;
 }
