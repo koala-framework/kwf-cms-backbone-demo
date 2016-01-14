@@ -1,4 +1,8 @@
-People.backbone.View.Detail = Backbone.View.extend({
+var Backbone = require('backbone');
+var _ = require('underscore');
+var $ = require('jQuery');
+
+var DetailView = Backbone.View.extend({
     template: _.template(
         '<%=firstname%> <%=lastname%>'),
 
@@ -9,3 +13,5 @@ People.backbone.View.Detail = Backbone.View.extend({
         return this;
     }
 });
+
+module.exports = DetailView;

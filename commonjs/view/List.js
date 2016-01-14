@@ -1,4 +1,10 @@
-People.backbone.View.List = Backbone.View.extend({
+var Backbone = require('backbone');
+var _ = require('underscore');
+var $ = require('jQuery');
+
+var App = require('../App');
+
+var ListView = Backbone.View.extend({
     template: _.template(
         '<ul>'+
         '<% _.each(people, function(person) { %>'+
@@ -13,7 +19,7 @@ People.backbone.View.List = Backbone.View.extend({
     onClick: function(ev) {
         ev.preventDefault();
         var id = $(ev.currentTarget).data('id');
-        People.backbone.router.navigate('/person/'+id, true);
+        App.router.navigate('/person/'+id, true);
     },
 
     render: function() {
@@ -31,3 +37,4 @@ People.backbone.View.List = Backbone.View.extend({
     }
 });
 
+module.exports = ListView;

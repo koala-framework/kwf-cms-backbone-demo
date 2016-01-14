@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
-    <body class="masterTheme">
+    <body class="<?=$this->rootElementClass?>">
         <div id="page">
             <div id="outerHeader">
                 <div id="header">&nbsp;</div>

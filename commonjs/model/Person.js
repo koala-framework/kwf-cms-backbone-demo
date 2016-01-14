@@ -1,4 +1,7 @@
-People.backbone.Model.Person = Backbone.Model.extend({
+var Backbone = require('backbone');
+var $ = require('jQuery');
+
+var PersonModel = Backbone.Model.extend({
     urlRoot: '/api/people',
     parse: function(response) {
         if (response.data) {
@@ -7,3 +10,5 @@ People.backbone.Model.Person = Backbone.Model.extend({
         return response;
     }
 });
+
+module.exports = PersonModel;
