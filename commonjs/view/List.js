@@ -2,15 +2,11 @@ var Backbone = require('backbone');
 var _ = require('underscore');
 var $ = require('jQuery');
 
+var template = require('./List.underscore.tpl');
 var App = require('../App');
 
 var ListView = Backbone.View.extend({
-    template: _.template(
-        '<ul>'+
-        '<% _.each(people, function(person) { %>'+
-        '  <li><a href="#" data-id="<%=person.id%>"><%=person.firstname%> <%=person.lastname%></a></li>'+
-        '<% }) %>'+
-        '</ul>'),
+    template: template,
 
     events: {
         'click a': 'onClick'
